@@ -11,14 +11,4 @@ module.exports = function calculateHanoi(/* disksNumber, turnsSpeed */) {
   let seconds = 0;
 
   for(let i = disksNumber; i <= 1; i--) rod[0].push(i);
-  while(rods[0].length !== 0){
-    let disk = rods[0].pop();
-    if(rod2.length !== 0){
-      let last_disk = rod2[length-1];
-    }
-
-
-  }
-
-
 };
